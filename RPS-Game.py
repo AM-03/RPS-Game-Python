@@ -78,7 +78,7 @@ def startNewGame(player):
  playerScore,botScore = 0,0
  
  while (playerScore!=finalScore and botScore!=finalScore) :
-  humanInput = input(' enter P for choose Paper, S as Scissor or R as Rock').upper()
+  humanInput = input(' enter P for choose Paper, S as Scissor or R as Rock \n ').upper()
   botChoice = random.choice(['P','S','R'])
   
   if (humanInput=='P' and botChoice=='P') or (humanInput=='S' and botChoice=='S') or (humanInput=='R' and botChoice=='R') :

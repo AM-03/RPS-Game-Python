@@ -1,6 +1,6 @@
 First published python project
 
-This is a simple terminal based game, called Rock, Papper, Scissors
+This is a simple terminal based game, called Papper, Scissor, Stone
 
 Objects-Classes :
 
